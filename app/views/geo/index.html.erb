@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>MongoDB's Geospatial Interactive Tutorial</title>
+  <%= include_css_bundle 'tutorialall' %>
+  <%= include_css_bundle 'geoall' %>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+  <%= include_js_bundle 'geoall' %>
+</head>
+<body>
+<div id="main">
+  <div id="menu">
+    <div id="speed" class="r">speed 2</div>
+    <ul id="speedChoice" class="r">
+      <li>0</li><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li>
+    </ul>
+    <div id="lesson" class="r"></div>
+  </div>
+  
+  <div id="history"></div>
+  <textarea id="input"></textarea>
+  <div id="results"></div>
+  <div id="pager">
+    <div id="first" class="r"></div>
+    <div id="prev" class="r"></div>
+    <div id="next" class="r"></div>
+    <div id="last" class="r"></div>
+  </div>
+	<table id="location"></table>
+</div>
+<script type="text/javascript">
+$(document).ready(function()
+{
+	context.initialize('caladan', 27017, []);
+  teacher.start();
+});
+var authenticity_token = <%=form_authenticity_token.inspect.html_safe%>;
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+---
+javascript:
+  tutorialall:
+    - tutorial/context
+    - tutorial/mongodb
+    - tutorial/menu
+    - jquery.selection
+    - tutorial/jquery.commandInput
+    - tutorial/jquery.inputHistory
+    - jquery.resultGrid
+    - jquery.pager
+    - tutorial/console
+    - tutorial/teacher
+    - tutorial/executor
+    - renderer
+  geoall:
+    - geo/geo
+    - geo/context
+    - geo/mongodb
+    - jquery.selection
+    - geo/jquery.commandInput
+    - geo/jquery.inputHistory
+    - jquery.color
+    - jquery.resultGrid
+    - jquery.pager
+    - geo/teacher
+    - geo/executor
+    - renderer
+css:
+  homeall:
+    - home
+  geoall:
+    - geo
+  tutorialall:
+    - main
+    - console
+    - dialog

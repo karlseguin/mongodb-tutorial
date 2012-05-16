@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Learn MongoDB</title>
+  <%= include_css_bundle 'homeall' %>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+</head>
+<body>
+<div id="main">
+	<h1>Handy resources for learning MongoDB</h1>
+	<div>
+		<a href="/tutorial/index"><img src="images/interactive.jpg" width="258" height="150" alt="The MongoDB Interactive Tutorial" /></a>
+		<p>The MongoDB Interactive Tutorial is a 15 minute MongoDB bootcamp. It takes you through a step by step guide of various MongoDB commands and document database principles. You'll be connected to an actual MongoDB database and be able to issue various commands - some of which might even make it impossible to move on to the next step (but don't worry, you can always reset a step). It's the quickest and most fun way to learn MongoDB.</p>
+	</div>
+	<div class="middle">
+		<a href="http://openmymind.net/mongodb.pdf"><img src="http://openmymind.net/mongodb_cover.png" width="258" height="150" alt="The Little MongoDB Book" /></a><br />also available in <a href="http://openmymind.net/mongodb.epub">epub</a>
+		<p>The Little MongoDB Book is a short introduction to using MongoDB. It tackles both the mechanics of programming against MongoDB as well as many of the higher level questions developers have when transitioning from traditional storage engines. The smooth progression starts with basic operations and ends with an understanding of data modelling and MapReduce. The book is freely available in both PDF and markdown and is hosted on github.</p>
+	</div>
+	<div>
+		<a href="/geo/index"><img src="images/grid.png" width="258" height="150" alt="MongoDB's Geospatial Interactive Tutorial" /></a>
+		<p>MongoDB's Geospatial Interactive Tutorial is 5 minute introduction to MongoDB's powerful, yet simple to use, geospatial capabilities. This is a killer feature when you are doing any sort of geo-mapping/location-based feature.</p>
+	</div>
+</div>
+<a href="http://openmymind.net/" id="passion">built with passion</a>
+<script type="text/javascript">
+$(document).ready(function()
+{
+	$('#main').children('div').mouseenter(function()
+	{
+		$(this).find('p').show();
+	}).mouseleave(function()
+	{
+		$(this).find('p').hide();
+	})
+});
+</script>
+</body>
+</html>
