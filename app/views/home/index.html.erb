@@ -2,7 +2,7 @@
 <html lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>Learn MongoDB</title>
-  <%= include_css_bundle 'homeall' %>
+  <%= stylesheet_link_tag 'home	' %>
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 </head>
 <body>
@@ -22,14 +22,11 @@
 	</div>
 </div>
 <a href="http://openmymind.net/" id="passion">built with passion</a>
-<script type="text/javascript">
-$(document).ready(function()
-{
-	$('#main').children('div').mouseenter(function()
-	{
+<script>
+$(document).ready(function() {
+	$('#main').children('div').mouseenter(function() {
 		$(this).find('p').show();
-	}).mouseleave(function()
-	{
+	}).mouseleave(function() {
 		$(this).find('p').hide();
 	})
 });

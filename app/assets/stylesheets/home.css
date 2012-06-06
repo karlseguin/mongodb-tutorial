@@ -1,9 +1,11 @@
+/*
+ *= require_self
+*/
+
 body{font-family:verdana;font-size:80%;margin:20px;}
 h1{font-size:1.2em;}
 a{color:#559;}
-
 #main > div{float:left;margin-top:40px;width:33%;text-align:center;}
 #main p{line-height:1.5em;color:#777;display:none;}
-
 #passion{position:absolute;bottom:20px;right:50px;color:#888;font-style:italic;font-weight:bold;text-decoration:none;}
 #passion:hover{text-decoration:underline;}

@@ -1,0 +1,12 @@
+//= require geo/geo
+//= require geo/context
+//= require geo/mongodb
+//= require jquery.selection
+//= require geo/jquery.commandInput
+//= require geo/jquery.inputHistory
+//= require jquery.color
+//= require jquery.resultGrid
+//= require jquery.pager
+//= require geo/teacher
+//= require geo/executor
+//= require renderer

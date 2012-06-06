@@ -3,9 +3,9 @@
 <head>
   <title>MongoDB Interactive Tutorial</title>
   <meta name="description" content="Try MongoDB, a short interactive MongoDB tutorial" />
-  <%= include_css_bundle 'tutorialall' %>
+  <%= stylesheet_link_tag 'tutorial' %>
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-  <%= include_js_bundle 'tutorialall' %>
+  <%= javascript_include_tag 'tutorial' %>
   <%= csrf_meta_tag %>
 </head>
 <body>
@@ -24,7 +24,7 @@
       <ul></ul>
     </div>
   </div>
-  
+
   <div id="history"></div>
   <textarea id="input"></textarea>
   <div id="results">

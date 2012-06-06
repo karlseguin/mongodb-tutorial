@@ -2,10 +2,10 @@
 <html lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>MongoDB's Geospatial Interactive Tutorial</title>
-  <%= include_css_bundle 'tutorialall' %>
-  <%= include_css_bundle 'geoall' %>
+  <%= stylesheet_link_tag 'tutorial' %>
+  <%= stylesheet_link_tag 'geo' %>
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-  <%= include_js_bundle 'geoall' %>
+  <%= javascript_include_tag 'geo' %>
 </head>
 <body>
 <div id="main">
@@ -16,7 +16,7 @@
     </ul>
     <div id="lesson" class="r"></div>
   </div>
-  
+
   <div id="history"></div>
   <textarea id="input"></textarea>
   <div id="results"></div>

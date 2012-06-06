@@ -1,7 +1,7 @@
 require File.expand_path('../boot', __FILE__)
 
 require "action_controller/railtie"
-require "rails/test_unit/railtie"
+require "sprockets/railtie"
 
 Bundler.require(:default, Rails.env) if defined?(Bundler)
 
@@ -10,5 +10,7 @@ module Mongoweb
     config.autoload_paths += %W(#{config.root}/lib)
     config.encoding = "utf-8"
     config.filter_parameters += [:password]
+    config.assets.enabled = true
+    config.assets.precompile += %w(*.js  *.css)
   end
 end

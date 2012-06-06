@@ -1,0 +1,12 @@
+//= require tutorial/context
+//= require tutorial/mongodb
+//= require tutorial/menu
+//= require jquery.selection
+//= require tutorial/jquery.commandInput
+//= require tutorial/jquery.inputHistory
+//= require jquery.resultGrid
+//= require jquery.pager
+//= require tutorial/console
+//= require tutorial/teacher
+//= require tutorial/executor
+//= require renderer

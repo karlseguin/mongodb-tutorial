@@ -1,3 +1,7 @@
+/*
+ *= require_self
+*/
+
 #location{float:right;width:400px;height:400px;border-spacing:1px;margin-top:40px;margin-right:5px;}
 #location td{border:1px solid #ddd;}
 #location td.active{background:#222;}
