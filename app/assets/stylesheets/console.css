@@ -9,8 +9,8 @@
 #explorer h3{margin-left:5px;}
 #toggleExplorer{position:absolute;bottom:5px;left:5px;cursor:pointer;}
 #toggleExplorer div{width:20px;height:20px;}
-#toggleExplorer .collapse{background:url('../images/left.png') no-repeat}
-#toggleExplorer .expand{background:url('../images/right.png') no-repeat;}
+#toggleExplorer .collapse{background:url('/assets/left.png') no-repeat}
+#toggleExplorer .expand{background:url('./assets/right.png') no-repeat;}
 
 #history em{font-family:menlo, consolas, arial;font-weight:bold;}
 #history > div {border-bottom:1px solid #e0e0e0;padding:5px;cursor:pointer;}
@@ -23,7 +23,7 @@
 
 #input{overflow:hidden;position:absolute;top:298px;left:0;height:12px;font-size:1em;padding:9px;font-family:menlo, consolas, arial;border:solid #ccc;border-width:1px 0;}
 #input:focus{outline:none;}
-#input.processing{background:#f0f0f0;color:#999;background:url('../images/loading.gif') repeat-y;}
+#input.processing{background:#f0f0f0;color:#999;background:url('/assets/loading.gif') repeat-y;}
 
 
 #grid{border:none;font-family:menlo, consolas, arial;border-collapse:collapse;font-size:90%;background:#fff;position:relative;}
@@ -38,7 +38,7 @@
 #pager{background:#fff;position:absolute;top:302px;right:5px;display:none;}
 #pager > div{width:16px;height:16px;cursor:pointer;float:left;padding:5px;background-repeat:no-repeat;background-position:5px;border:1px solid #eee;margin-right:5px;}
 #pager > div:hover {border:1px solid #ccc;}
-#first{background:url('../images/first.gif');}
-#prev{background:url('../images/prev.gif');}
-#next{background:url('../images/next.gif');}
-#last{background:url('../images/last.gif');}
+#first{background:url('/assets/first.gif');}
+#prev{background:url('/assets/prev.gif');}
+#next{background:url('/assets/next.gif');}
+#last{background:url('/assets/last.gif');}

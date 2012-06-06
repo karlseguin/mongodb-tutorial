@@ -4,5 +4,5 @@
 .dialog .controls input{margin:0px 0px 0px 20px;}
 .dialog .header {border:1px solid #ccc; background:#eee;display:block;z-index:3200; height:40px;margin-bottom:10px;}
 .dialog .header span{color:#444;font-size:1.3em;font-weight:bold;padding:9px 0px 0px 8px;display:block;float:left;}
-.dialog .header a{cursor:pointer;display:block;width:30px;height:30px;background:url('../images/close.png') no-repeat;float:right;margin:10px 0px 0px 0px;}
-.dialog .header a:hover{background:url('../images/close_o.png') no-repeat}
+.dialog .header a{cursor:pointer;display:block;width:30px;height:30px;background:url('/assets/close.png') no-repeat;float:right;margin:10px 0px 0px 0px;}
+.dialog .header a:hover{background:url('/assets/close_o.png') no-repeat}
