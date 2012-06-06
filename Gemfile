@@ -9,3 +9,8 @@ gem 'erubis'
 group :assets do
   gem 'uglifier'
 end
+
+group :production do
+  gem 'execjs'
+  gem 'therubyracer'
+end
